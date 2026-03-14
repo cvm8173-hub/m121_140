@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/adesh-medical-college-and-hospital-kurukshetra-69759",
-  "https://www.shiksha.com/university/apex-university-jaipur-63261",
-  "https://www.shiksha.com/college/apollo-institute-of-medical-sciences-and-research-hyderabad-jubilee-hills-67507",
-  "https://www.shiksha.com/college/svmc-sri-venkateswara-medical-college-tirupati-63157",
-  "https://www.shiksha.com/college/bgs-global-institute-of-medical-sciences-kengeri-bangalore-69777",
-  "https://www.shiksha.com/college/world-college-of-medical-sciences-and-research-jhajjar-150141",
-  "https://www.shiksha.com/college/madurai-medical-college-20559",
-  "https://www.shiksha.com/college/r-a-podar-ayurved-medical-college-worli-mumbai-68051",
-  "https://www.shiksha.com/college/guru-gobind-singh-medical-college-and-hospital-faridkot-58523",
-  "https://www.shiksha.com/college/sree-balaji-medical-college-and-hospital-chrompet-chennai-63149",
-  "https://www.shiksha.com/college/tata-memorial-centre-navi-mumbai-69925",
-  "https://www.shiksha.com/college/ayurvedic-and-unani-tibbia-college-delhi-87527",
-  "https://www.shiksha.com/college/hind-institute-of-medical-sciences-barabanki-69821",
-  "https://www.shiksha.com/college/hamdard-institute-of-medical-sciences-and-research-new-delhi-62965",
-  "https://www.shiksha.com/college/rural-medical-college-loni-maharashtra-other-63109",
-  "https://www.shiksha.com/college/the-oxford-medical-college-hospital-and-research-center-anekal-bangalore-67913",
-  "https://www.shiksha.com/college/thanjavur-medical-college-63169",
-  "https://www.shiksha.com/college/nims-institute-of-pharmacy-nims-university-jaipur-52987",
-  "https://www.shiksha.com/college/uttaranchal-p-g-college-of-bio-medical-sciences-and-hospital-dehradun-23157",
-  "https://www.shiksha.com/college/father-mullers-medical-college-mangalore-69959",
+  "https://www.shiksha.com/college/nidt-professionals-andheri-andheri-west-mumbai-27483",
+  "https://www.shiksha.com/college/meerut-international-institute-of-technology-59807",
+  "https://www.shiksha.com/college/loknete-gopinathji-munde-institute-of-engineering-education-research-nashik-59881",
+  "https://www.shiksha.com/college/acropolis-institute-of-management-studies-and-research-indore-60173",
+  "https://www.shiksha.com/college/chaitanya-institute-of-science-and-technology-kakinada-61165",
+  "https://www.shiksha.com/college/mother-theresa-institute-of-computer-applications-chittoor-62371",
+  "https://www.shiksha.com/college/kamala-institute-of-management-studies-prakasam-62491",
+  "https://www.shiksha.com/college/amara-institute-of-engineering-and-technology-andhra-pradesh-other-62635",
+  "https://www.shiksha.com/college/pragathi-degree-college-andhra-pradesh-other-68753",
+  "https://www.shiksha.com/college/arcot-sri-mahalaalakshmi-women-s-institute-of-management-and-computer-applications-vellore-70703",
+  "https://www.shiksha.com/college/institute-of-management-and-planning-and-advance-computer-training-patna-72315",
+  "https://www.shiksha.com/college/smt-kumudben-darbar-college-of-commerce-science-and-management-studies-bijapur-72789",
+  "https://www.shiksha.com/college/laxmi-narayan-academy-of-management-gwalior-72917",
+  "https://www.shiksha.com/college/rama-institute-of-higher-education-uttar-pradesh-other-74901",
+  "https://www.shiksha.com/college/shivnagar-education-societys-insitute-of-management-baramati-75927",
+  "https://www.shiksha.com/college/saraswati-group-of-colleges-mohali-91751",
+  "https://www.shiksha.com/college/gurukripa-college-of-management-bhopal-210161",
+  "https://www.shiksha.com/college/international-school-of-design-pimpri-chinchwad-chinchwad-pune-212957",
+  "https://www.shiksha.com/college/kmm-college-kumbalam-ernakulum-232392",
+  "https://www.shiksha.com/college/maa-kanti-college-of-higher-education-patna-242390",
 ]
 
 
@@ -9241,7 +9241,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =121
+    c_count =2771
 
     try:
         for base_url in BASE_URL:
